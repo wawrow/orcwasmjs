@@ -18,7 +18,7 @@ jobs:
       # - name: Install dependencies
       #   run: npm ci
       - name: Install semantic-release plugins globally
-        run: npm install -g semantic-release @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/npm @semantic-release/github
+        run: npm install -g semantic-release @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/npm @semantic-release/github @semantic-release/git
       - name: Configure Git
         run: |
           git config user.name "GitHub Actions"
