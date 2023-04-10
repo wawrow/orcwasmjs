@@ -1,6 +1,6 @@
 {
   "name": "orcwasmjs",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "ORC reader for node using WASM",
   "main": "index.mjs",
   "types": "index.d.ts",
