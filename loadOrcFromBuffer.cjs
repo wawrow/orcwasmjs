@@ -14,7 +14,6 @@ WebAssembly.instantiate(wasmFile, go.importObject)
     go.run(result.instance);
     console.debug("The WebAssembly module has been initialized.");
     loadOrcFromBuffer = global.loadOrcFromBuffer;
-    console.debug({loadOrcFromBuffer} );
   })
   .catch((err) => {
     console.error("Failed to instantiate the WebAssembly module:", err);
