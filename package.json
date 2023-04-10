@@ -3,6 +3,7 @@
   "version": "1.1.2",
   "description": "ORC reader for node using WASM",
   "main": "index.mjs",
+  "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +22,8 @@
     "url": "https://github.com/wawrow/orcwasmjs/issues"
   },
   "homepage": "https://github.com/wawrow/orcwasmjs#readme",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  }
 }
