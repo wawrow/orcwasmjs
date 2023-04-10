@@ -41,11 +41,11 @@ func goCallback(this js.Value, args []js.Value) interface{} {
 	}
 
 	c := reader.Select(cols...)
-	count := 0
+	// count := 0
 
 	result := js.Global().Get("Array").New()
 
-outerLoop:
+	// outerLoop:
 	for c.Stripes() {
 		for c.Next() {
 			row := c.Row()
@@ -54,10 +54,10 @@ outerLoop:
 				rowResult.Call("push", value)
 			}
 			result.Call("push", row)
-			count += 1
-			if count > 1000 {
-				break outerLoop
-			}
+			// count += 1
+			// if count > 1000 {
+			// break outerLoop
+			// }
 		}
 	}
 
