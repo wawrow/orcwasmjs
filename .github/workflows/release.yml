@@ -15,8 +15,8 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: 19
-      - name: Install dependencies
-        run: npm ci
+      # - name: Install dependencies
+      #   run: npm ci
       - name: Install semantic-release plugins globally
         run: npm install -g semantic-release @semantic-release/commit-analyzer @semantic-release/release-notes-generator @semantic-release/npm @semantic-release/github
       - name: Semantic Release
