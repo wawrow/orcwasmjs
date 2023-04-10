@@ -1,0 +1,24 @@
+{
+  "name": "orcwasmjs",
+  "version": "1.0.0",
+  "description": "ORC reader for node using WASM",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wawrow/orcwasmjs.git"
+  },
+  "keywords": [
+    "orc",
+    "wasm",
+    "node"
+  ],
+  "author": "WLW",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/wawrow/orcwasmjs/issues"
+  },
+  "homepage": "https://github.com/wawrow/orcwasmjs#readme"
+}
