@@ -7,10 +7,7 @@
         "forceConsistentCasingInFileNames": true,
         "declaration": true,
         "outDir": "dist",
-        "skipLibCheck": true,
-        "types": [
-            "node"
-        ]
+        "skipLibCheck": true
     },
     "include": [
         "index.d.ts"
