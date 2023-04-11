@@ -1,7 +1,6 @@
 # orcwasmjs
 
 Meet `orcwasmjs`, the "naive" JavaScript module that harnesses the power of WebAssembly and enable you to read orc files from within Javascript. Using the https://github.com/scritchley/orc Go library its purpose is to enable reading ORC files, delivering data as a simplest possible List of Lists object. This adaptable module fits comfortably in both browser and Node.js environments.
-
 While `orcwasmjs` is currently quite adept at the simple act of reading a specific list of columns, it's not yet ventured into the realms of filtering, aggregation, or metadata inspection. 
 
 
